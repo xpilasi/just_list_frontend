@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/editable_text.dart';
-import 'package:just_list/models/saved_purchased_row.dart';
 
 class Product {
   late String productName;

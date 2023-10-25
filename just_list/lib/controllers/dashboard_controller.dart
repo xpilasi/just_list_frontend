@@ -1,15 +1,12 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:just_list/common/colors.dart';
 import 'package:just_list/common/texts.dart';
+import 'package:just_list/models/list_model.dart';
+import 'package:just_list/models/product_model.dart';
 import 'package:just_list/models/saved_purchased_row.dart';
-import 'package:just_list/screens/dashboard/dashboard.dart';
 import 'package:just_list/widgets/buttons/custom_buttons.dart';
 import 'package:just_list/widgets/snack_bars/snack_bar_widget.dart';
-
-import '../common/colors.dart';
-import '../models/list_model.dart';
-import '../models/product_model.dart';
 
 class DashBoardController extends GetxController {
   List<ListModel> lists = [];
